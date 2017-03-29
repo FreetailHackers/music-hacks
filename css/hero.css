@@ -25,13 +25,20 @@ body {
   color: white !important;
 }
 
-.hero-cta span {
-  padding: 1.5em;
+@media (min-width: 350px) {
+    .hero-cta span {
+        padding: 1.5em;
+    }
+}
+
+#register-button {
+    padding: 1.5em;
 }
 
 .hero-cta .button {
-  padding: 2em 0;
+    padding: 2em 0;
 }
+
 .panel-block.section p {
   font-size: 17px;
   line-height: 1.4;
